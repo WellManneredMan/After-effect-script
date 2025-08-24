@@ -1,7 +1,7 @@
 (function(thisObj) {
     scriptBuildUI(thisObj)
     function scriptBuildUI(thisObj) {
-        var win = (thisObj instanceof Panel) ? thisObj : new Window('palette', "KIWILmao", undefined, {
+        var win = (thisObj instanceof Panel) ? thisObj : new Window('palette', "Jakxine Layers", undefined, {
             resizeable: true
         });
         win.spacing = 0;
@@ -9,7 +9,7 @@
 
         // WIN
         // ===
-        win.text = "KIWILmao"; 
+        win.text = "Jakxine"; 
         win.orientation = "column"; 
         win.alignChildren = ["center","top"]; 
         win.spacing = 10; 
